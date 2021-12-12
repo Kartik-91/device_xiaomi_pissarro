@@ -26,9 +26,6 @@ $(call inherit-product, vendor/xiaomi/pissarro/pissarro-vendor.mk)
 
 PRODUCT_SHIPPING_API_LEVEL := 30
 
-# Properties
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.adb.secure.recovery=0
-
 # A/B
 ENABLE_VIRTUAL_AB := true
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
@@ -61,6 +58,14 @@ AB_OTA_POSTINSTALL_CONFIG += \
 # Dynamic Partition
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_BUILD_SUPER_PARTITION := false
+
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-lineage
+
+# Properties
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.adb.secure.recovery=0
 
 # Audio
 PRODUCT_PACKAGES += \
