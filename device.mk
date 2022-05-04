@@ -390,6 +390,10 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2.vendor \
     libchrome.vendor
 
+# Light
+PRODUCT_PACKAGES += \
+    android.hardware.light-service.pissarro
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@2.0-ScopedWakelock.vendor \

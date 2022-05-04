@@ -401,7 +401,6 @@ vendor/etc/init/android.hardware.keymaster@4.0-service.beanpod.rc
 vendor/etc/init/android.hardware.keymaster@4.0-service.mitee.rc
 
 # Light
-vendor/bin/hw/android.hardware.lights-service.mediatek
 vendor/lib/hw/lights.mt6877.so
 vendor/lib64/hw/lights.mt6877.so
 
@@ -1243,7 +1242,6 @@ vendor/etc/init/init.vtservice_hidl.rc
 vendor/etc/init/init.wlan_drv.rc
 vendor/etc/init/ipsec_mon.rc
 vendor/etc/init/lbs_hidl_service.rc
-vendor/etc/init/lights-mtk-default.rc
 vendor/etc/init/loghidlvendorservice.rc
 vendor/etc/init/md_monitor.rc
 vendor/etc/init/memtrack-mediatek.rc
@@ -1632,7 +1630,6 @@ vendor/etc/vintf/manifest/fod.xml
 vendor/etc/vintf/manifest/gnss-default.xml
 vendor/etc/vintf/manifest/gnss@2.1-service.xml
 vendor/etc/vintf/manifest/lbs_hidl_service@1.0.xml
-vendor/etc/vintf/manifest/lights-mtk-default.xml
 vendor/etc/vintf/manifest/manifest_hwcomposer.xml
 vendor/etc/vintf/manifest/manifest_media_c2_V1_2_default.xml
 vendor/etc/vintf/manifest/memtrack-mediatek.xml
@@ -4099,7 +4096,6 @@ vendor/lib64/android.hardware.nfc@1.0.so
 vendor/lib64/android.hardware.nfc@1.1.so
 vendor/lib64/android.hardware.nfc@1.2.so
 vendor/lib64/android.hardware.power-service-mediatek.so
-vendor/lib64/android.hardware.light@2.0.so
 vendor/lib64/android.hardware.gnss.measurement_corrections@1.0.so
 vendor/lib64/android.hardware.gnss.measurement_corrections@1.1.so
 vendor/lib64/android.hardware.gnss.visibility_control@1.0.so
