@@ -7,6 +7,17 @@ persist.dbg.ims_volte_enable=1
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 
+# Brand
+Build.BRAND=MTK
+
+# Camera
+persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera,com.google.camera
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.google.camera
+
+# MIUI Camera
+ro.miui.notch=1
+ro.product.mod_device=pissarro_in_global
+
 #support dual wifi feature
 ro.vendor.net.enable_dual_wifi=1
 #
