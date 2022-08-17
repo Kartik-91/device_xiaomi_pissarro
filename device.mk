@@ -288,7 +288,7 @@ PRODUCT_PACKAGES += \
     libsfplugin_ccodec_utils.vendor \
     libcodec2_soft_common.vendor \
     libavservices_minijail \
-    libavservices_minijail_vendor
+    libavservices_minijail.vendor
 
 # Neural Networks
 PRODUCT_PACKAGES += \
