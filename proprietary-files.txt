@@ -46,8 +46,11 @@ system/etc/init/init.vtservice.rc
 -system/framework/mediatek-ims-extension-plugin.jar
 -system/framework/mediatek-ims-legacy.jar
 -system/framework/mediatek-telecom-common.jar
+<<<<<<< HEAD
 -system/framework/mediatek-telephony-base.jar
 -system/framework/mediatek-telephony-common.jar
+=======
+>>>>>>> 1bad51c... pissarro: import lights
 -system/framework/mediatek-gwsdv2.jar
 -system/framework/mediatek-wfo-legacy.jar
 system/lib/libmtk_vt_wrapper.so
