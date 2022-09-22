@@ -309,7 +309,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.1.vendor
 
-<<<<<<< HEAD
 # TinyXML
 PRODUCT_PACKAGES += \
     libtinyxml
