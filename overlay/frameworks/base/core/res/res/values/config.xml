@@ -897,4 +897,7 @@
     <string-array name="config_deviceKeyHandlerClasses" translatable="false">
         <item>org.aospextended.device.KeyHandler</item>
     </string-array>
+
+    <!-- Indicates whether device has a power button fingerprint sensor. -->
+    <bool name="config_is_powerbutton_fps" translatable="false">true</bool>
 </resources>
