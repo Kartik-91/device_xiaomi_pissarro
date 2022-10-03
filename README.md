@@ -1,4 +1,7 @@
-
+Paste this in Your Rom source directory
+```bash
+git clone https://github.com/Kartik-91/device_xiaomi_pissarro -b 12.1-prebuilt device/xiaomi/pissarro && git clone https://github.com/Pranav-Talmale/vendor_xiaomi_pissarro -b lineage-18.1 vendor/xiaomi/pissarro && cd device/xiaomi/pissarro/prebuilt/ && wget https://go.savagermz.workers.dev/0:/vendor.zip && unzip vendor.zip && rm vendor.zip && cd ../../../..
+```
 Device Tree for Xiaomi 11i (pissarro)
 ==========================================
 
