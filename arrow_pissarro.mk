@@ -24,15 +24,15 @@ TARGET_BOOT_ANIMATION_RES := 1080
 $(call inherit-product, device/xiaomi/pissarro/device.mk)
 
 # Inherit some source stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Boot Animation
-TARGET_SCREEN_HEIGHT := 2340
+TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := pissarro
-PRODUCT_NAME := aosp_pissarro
+PRODUCT_NAME := arrow_pissarro
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Xiaomi 11i
 PRODUCT_MANUFACTURER := Xiaomi
@@ -42,6 +42,13 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=pissarro \
     PRODUCT_NAME=pissarro \
-    PRIVATE_BUILD_DESC="pissarro-user 11 RP1A.200720.011 V12.5.6.0.RKTINXM release-keys"
+    PRIVATE_BUILD_DESC="coral-user 11 RQ3A.210605.005 7349499 release-keys"
 
-BUILD_FINGERPRINT := Xiaomi/pissarroin/pissarro:11/RP1A.200720.011/V12.5.6.0.RKTINXM:user/release-keys
+BUILD_FINGERPRINT := google/coral/coral:11/RQ3A.210605.005/7349499:user/release-keys
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.fingerprint=$(BUILD_FINGERPRINT)
+
+# ArrowOS additions
+DEVICE_MAINTAINER := Kartik-91
+ARROW_GAPPS := true
