@@ -27,14 +27,14 @@ $(call inherit-product, device/xiaomi/pissarro/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Boot Animation
-TARGET_SCREEN_HEIGHT := 2340
+TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := pissarro
 PRODUCT_NAME := lineage_pissarro
-PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Xiaomi 11i
+PRODUCT_BRAND := Redmi
+PRODUCT_MODEL := Redmi Note 11 Pro+ 5G
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
@@ -42,6 +42,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=pissarro \
     PRODUCT_NAME=pissarro \
-    PRIVATE_BUILD_DESC="pissarro-user 11 RP1A.200720.011 V12.5.6.0.RKTINXM release-keys"
+    PRIVATE_BUILD_DESC="pissarro-user 12 SP1A.210812.016 V13.0.3.0.SKTMIXM release-keys"
 
-BUILD_FINGERPRINT := Xiaomi/pissarroin/pissarro:11/RP1A.200720.011/V12.5.6.0.RKTINXM:user/release-keys
+BUILD_FINGERPRINT := Redmi/vnd_pissarro/pissarro:12/SP1A.210812.016/V13.0.3.0.SKTMIXM:user/release-keys
