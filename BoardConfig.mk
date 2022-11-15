@@ -172,3 +172,6 @@ include vendor/xiaomi/pissarro-firmware/BoardConfigVendor.mk
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 TARGET_USES_PREBUILT_VENDOR_SEPOLICY := true
 TARGET_HAS_FUSEBLK_SEPOLICY_ON_VENDOR := true
+
+# Vintf
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/vintf/compatibility_matrix.device.xml
