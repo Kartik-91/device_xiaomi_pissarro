@@ -158,8 +158,11 @@ TARGET_NO_RECOVERY := true
 # Treble
 BOARD_VNDK_VERSION := current
 
+# Vintf
+DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/vintf/manifest.xml
+
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-11-05
 
 # Firmware
-#include vendor/xiaomi/pissarro-firmware/BoardConfigVendor.mk
+include vendor/xiaomi/pissarro-firmware/BoardConfigVendor.mk
