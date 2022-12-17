@@ -45,6 +45,9 @@ BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX_LOCATION := 2
 # APEX
 OVERRIDE_TARGET_FLATTEN_APEX := true
 
+# Arrow
+TARGET_FORCE_RO_DEBUGGABLE := true
+
 # Bootloader
 TARGET_BOARD_PLATFORM := mt6877
 TARGET_BOOTLOADER_BOARD_NAME := mt6877
@@ -133,8 +136,6 @@ BOARD_XIAOMI_DYNAMIC_PARTITIONS_PARTITION_LIST := system system_ext vendor produ
 BOARD_XIAOMI_DYNAMIC_PARTITIONS_SIZE := 9122611200 # TODO: Fix hardcoded value
 BOARD_SUPER_PARTITION_ERROR_LIMIT := 9126805504
 
-BOARD_PREBUILT_VENDORIMAGE := $(DEVICE_PATH)/prebuilt/vendor.img
-
 TARGET_USES_PREBUILT_DYNAMIC_PARTITIONS := true
 
 # Properties
@@ -161,4 +162,4 @@ BOARD_VNDK_VERSION := current
 VENDOR_SECURITY_PATCH := 2021-11-05
 
 # Firmware
-include vendor/xiaomi/pissarro-firmware/BoardConfigVendor.mk
+#include vendor/xiaomi/pissarro-firmware/BoardConfigVendor.mk
