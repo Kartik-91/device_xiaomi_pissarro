@@ -21,7 +21,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 $(call inherit-product, vendor/xiaomi/pissarro/pissarro-vendor.mk)
 
-PRODUCT_TARGET_VNDK_VERSION := 31
 PRODUCT_SHIPPING_API_LEVEL := 30
 
 # A/B
