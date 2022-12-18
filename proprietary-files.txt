@@ -1818,9 +1818,6 @@ vendor/etc/mtk_omx_core.cfg
 vendor/etc/mtk_platform_codecs_config.xml
 vendor/etc/nhw
 vendor/etc/partition_permission.sh
-vendor/etc/power_app_cfg.xml
-vendor/etc/powercontable.xml
-vendor/etc/powerscntbl.xml
 vendor/etc/public.libraries.txt
 vendor/etc/rcv.wav
 vendor/etc/rcv_pink.wav
@@ -1835,7 +1832,6 @@ vendor/etc/task_profiles.json
 vendor/etc/throttle.sh
 vendor/etc/top_spk.wav
 vendor/etc/ultrasound.wav
-vendor/etc/usb_audio_accessory_only_policy_configuration.xml
 vendor/etc/vendor-apns-conf.xml
 vendor/etc/virtual-spn-conf-by-efgid1.xml
 vendor/etc/virtual-spn-conf-by-efpnn.xml
