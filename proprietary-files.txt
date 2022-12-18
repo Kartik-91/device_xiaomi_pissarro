@@ -1092,14 +1092,6 @@ vendor/etc/wifi/wpa_supplicant.conf
 vendor/etc/wifi/wpa_supplicant_overlay.conf
 
 # Miscellaneous
-vendor/app/GFTest/GFTest.apk
-vendor/app/GoogleNetworkStackResOverlay/GoogleNetworkStackResOverlay.apk
-vendor/app/GoogleTetheringResOverlay/GoogleTetheringResOverlay.apk
-vendor/app/IFAAService/IFAAService.apk
-vendor/app/InProcessTetheringResOverlay/InProcessTetheringResOverlay.apk
-vendor/app/NetworkStackInProcessResOverlay/NetworkStackInProcessResOverlay.apk
-vendor/app/NetworkStackResOverlay/NetworkStackResOverlay.apk
-vendor/app/TetheringResOverlay/TetheringResOverlay.apk
 vendor/bin/hw/camerahalserver
 vendor/bin/hw/mfp-daemon
 vendor/bin/hw/tetheroffloadservice
