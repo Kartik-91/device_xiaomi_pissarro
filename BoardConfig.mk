@@ -155,6 +155,10 @@ TARGET_USERIMAGES_USE_F2FS := true
 TARGET_USES_MKE2FS := true
 TARGET_NO_RECOVERY := true
 
+# SEPolicy
+include device/mediatek/sepolicy_vndr/SEPolicy.mk
+SELINUX_IGNORE_NEVERALLOWS := true
+
 # Treble
 BOARD_VNDK_VERSION := current
 
