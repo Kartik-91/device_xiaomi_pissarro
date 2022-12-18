@@ -1818,7 +1818,6 @@ vendor/etc/mtk_omx_core.cfg
 vendor/etc/mtk_platform_codecs_config.xml
 vendor/etc/nhw
 vendor/etc/partition_permission.sh
-vendor/etc/public.libraries.txt
 vendor/etc/rcv.wav
 vendor/etc/rcv_pink.wav
 vendor/etc/screen_light.xml
