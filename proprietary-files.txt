@@ -174,11 +174,6 @@ vendor/lib64/hw/audio.bluetooth.default.so
 vendor/lib64/libbluetooth_audio_session.so
 vendor/lib64/libbluetooth_audio_session_mediatek.so
 
-# Boot
-vendor/bin/hw/android.hardware.boot@1.2-service
-vendor/etc/init/android.hardware.boot@1.2-service.rc
-vendor/etc/vintf/manifest/android.hardware.boot@1.2.xml
-
 # Camera configs
 vendor/etc/camera/model/dof_model/capture_cache
 vendor/etc/camera/model/dof_model/capture_model
