@@ -120,6 +120,14 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.5.vendor \
     android.hardware.camera.provider@2.6.vendor
 
+# Display
+PRODUCT_PACKAGES += \
+    android.hardware.graphics.composer@2.3-impl:64 \
+    android.hardware.graphics.composer@2.3-service \
+    android.hardware.graphics.composer@2.3-resources \
+    android.hardware.memtrack@1.0-service \
+    android.hardware.memtrack@1.0-impl
+
 # Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd \
