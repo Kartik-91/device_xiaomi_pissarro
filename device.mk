@@ -140,6 +140,15 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-service \
     android.hardware.memtrack@1.0-impl
 
+PRODUCT_PACKAGES += \
+    libfmq \
+    libdrm.vendor \
+    libhwc2on1adapter \
+    libhwc2onfbadapter
+
+PRODUCT_PACKAGES += \
+    vendor.xiaomi.hardware.displayfeature@1.0.vendor
+ 
 # Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd \

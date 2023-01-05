@@ -335,15 +335,9 @@ vendor/lib64/vendor.mediatek.hardware.pq@2.8.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.9.so
 
 # Display (Xiaomi)
-lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
-vendor/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service
-vendor/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc
 vendor/lib/hw/displayfeature.default.so
 vendor/lib/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so
-vendor/lib/vendor.xiaomi.hardware.displayfeature@1.0.so
 vendor/lib64/hw/displayfeature.default.so
-vendor/lib64/hw/vendor.xiaomi.hardware.displayfeature@1.0-impl.so
-vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
 
 # Dolby
 lib/vendor.dolby.hardware.dms@2.0.so
@@ -4217,7 +4211,6 @@ vendor/lib/libpixelflinger.so
 vendor/lib/libpcap.so
 vendor/lib/libhidltransport.so
 vendor/lib/libhwbinder.so
-vendor/lib/libdrm.so
 vendor/lib/libavservices_minijail_vendor.so
 vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so
 vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so
@@ -4249,7 +4242,6 @@ vendor/lib/android.hardware.audio@7.0.so
 vendor/bin/init.insmod.sh
 vendor/lib64/libavservices_minijail_vendor.so
 vendor/lib64/libc++_shared.so
-vendor/lib64/libdrm.so
 vendor/lib64/libtinycompress.so
 vendor/lib64/libchrome.so
 vendor/lib64/libhidltransport.so
