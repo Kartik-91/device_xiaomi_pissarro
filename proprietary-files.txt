@@ -4122,7 +4122,6 @@ vendor/lib64/hw/android.hardware.boot@1.0-impl-1.2-mtkimpl.so
 vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so
 vendor/lib64/hw/android.hardware.audio@6.0-impl-mediatek.so
 vendor/lib64/hw/android.hardware.audio@7.0-impl-mediatek.so
-vendor/lib64/android.hidl.memory.block@1.0.so
 vendor/lib64/android.hardware.thermal@2.0.so
 vendor/lib64/android.hardware.usb.gadget@1.0.so
 vendor/lib64/android.hardware.usb.gadget@1.1.so
@@ -4145,10 +4144,6 @@ vendor/lib64/android.hardware.tetheroffload.control@1.1.so
 vendor/lib64/android.hardware.sensors@2.0-ScopedWakelock.so
 vendor/lib64/android.hardware.sensors@2.0.so
 vendor/lib64/android.hardware.sensors@2.1.so
-vendor/lib64/android.hardware.neuralnetworks@1.0.so
-vendor/lib64/android.hardware.neuralnetworks@1.1.so
-vendor/lib64/android.hardware.neuralnetworks@1.2.so
-vendor/lib64/android.hardware.neuralnetworks@1.3.so
 vendor/lib64/android.hardware.nfc@1.0.so
 vendor/lib64/android.hardware.nfc@1.1.so
 vendor/lib64/android.hardware.nfc@1.2.so
@@ -4168,18 +4163,14 @@ vendor/lib64/android.hardware.audio@7.0-util.so
 vendor/lib64/android.hardware.audio@7.0.so
 vendor/lib64/android.hardware.biometrics.fingerprint@2.1.so
 vendor/lib/libtinycompress.so
-vendor/lib/libtextclassifier_hash.so
 vendor/lib/libpixelflinger.so
 vendor/lib/libpcap.so
-vendor/lib/libhidltransport.so
-vendor/lib/libhwbinder.so
 vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so
 vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so
 vendor/lib/hw/android.hardware.bluetooth@1.1-impl-mediatek.so
 vendor/lib/hw/android.hardware.boot@1.0-impl-1.2-mtkimpl.so
 vendor/lib/hw/android.hardware.audio@6.0-impl-mediatek.so
 vendor/lib/hw/android.hardware.audio@7.0-impl-mediatek.so
-vendor/lib/android.hidl.memory.block@1.0.so
 vendor/lib/android.hardware.thermal@2.0.so
 vendor/lib/android.hardware.sensors@2.0-ScopedWakelock.so
 vendor/lib/android.hardware.sensors@2.0.so
@@ -4193,8 +4184,5 @@ vendor/lib/android.hardware.audio@7.0.so
 vendor/bin/init.insmod.sh
 vendor/lib64/libc++_shared.so
 vendor/lib64/libtinycompress.so
-vendor/lib64/libhidltransport.so
-vendor/lib64/libhwbinder.so
 vendor/lib64/libpcap.so
 vendor/lib64/libpixelflinger.so
-vendor/lib64/libtextclassifier_hash.so

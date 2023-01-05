@@ -182,8 +182,14 @@ PRODUCT_PACKAGES += \
 
 # HIDL
 PRODUCT_PACKAGES += \
-    android.hidl.base@1.0_system \
-    android.hidl.manager@1.0_system
+    android.hidl.base@1.0 \
+    android.hidl.base@1.0.vendor \
+    android.hidl.allocator@1.0.vendor \
+    android.hidl.memory.block@1.0 \
+    android.hidl.memory.block@1.0.vendor \
+    libhidltransport \
+    libhidltransport.vendor \
+    libhwbinder.vendor
 
 # Ims
 PRODUCT_BOOT_JARS += \
@@ -236,6 +242,17 @@ PRODUCT_PACKAGES += \
     libcodec2_soft_common.vendor \
     libavservices_minijail \
     libavservices_minijail_vendor
+
+# Neural Networks
+PRODUCT_PACKAGES += \
+    libruy \
+    android.hardware.neuralnetworks@1.0.vendor \
+    android.hardware.neuralnetworks@1.1.vendor \
+    android.hardware.neuralnetworks@1.2.vendor \
+    android.hardware.neuralnetworks@1.3.vendor
+
+PRODUCT_PACKAGES += \
+    libtextclassifier_hash.vendor
 
 # Permissions
 PRODUCT_COPY_FILES += \
