@@ -357,6 +357,12 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2.vendor \
     libchrome.vendor
 
+# Sensors
+PRODUCT_PACKAGES += \
+    android.hardware.sensors@2.0-ScopedWakelock.vendor \
+    android.hardware.sensors@2.1.vendor \
+    libsensorndkbridge
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH)

@@ -2712,7 +2712,6 @@ vendor/lib/librpc.so
 vendor/lib/librt_extamp_intf.so
 vendor/lib/libruy.so
 vendor/lib/libscltm.so
-vendor/lib/libsensorndkbridge.so
 vendor/lib/libsimlock.so
 vendor/lib/libsimmelock.so
 vendor/lib/libsoter.so
@@ -3931,7 +3930,6 @@ vendor/lib64/librt_extamp_intf.so
 vendor/lib64/libruy.so
 vendor/lib64/libscltm.so
 vendor/lib64/libsdk_sr.so
-vendor/lib64/libsensorndkbridge.so
 vendor/lib64/libsimlock.so
 vendor/lib64/libsimmelock.so
 vendor/lib64/libsn100u_fw.so
@@ -4136,9 +4134,6 @@ vendor/lib64/android.hardware.wifi.supplicant@1.4.so
 vendor/lib64/android.hardware.tetheroffload.config@1.0.so
 vendor/lib64/android.hardware.tetheroffload.control@1.0.so
 vendor/lib64/android.hardware.tetheroffload.control@1.1.so
-vendor/lib64/android.hardware.sensors@2.0-ScopedWakelock.so
-vendor/lib64/android.hardware.sensors@2.0.so
-vendor/lib64/android.hardware.sensors@2.1.so
 vendor/lib64/android.hardware.nfc@1.0.so
 vendor/lib64/android.hardware.nfc@1.1.so
 vendor/lib64/android.hardware.nfc@1.2.so
@@ -4162,9 +4157,6 @@ vendor/lib/hw/android.hardware.boot@1.0-impl-1.2-mtkimpl.so
 vendor/lib/hw/android.hardware.audio@6.0-impl-mediatek.so
 vendor/lib/hw/android.hardware.audio@7.0-impl-mediatek.so
 vendor/lib/android.hardware.thermal@2.0.so
-vendor/lib/android.hardware.sensors@2.0-ScopedWakelock.so
-vendor/lib/android.hardware.sensors@2.0.so
-vendor/lib/android.hardware.sensors@2.1.so
 vendor/lib/android.hardware.nfc@1.0.so
 vendor/lib/android.hardware.nfc@1.1.so
 vendor/lib/android.hardware.nfc@1.2.so
