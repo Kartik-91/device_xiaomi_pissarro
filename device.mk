@@ -96,6 +96,13 @@ PRODUCT_PACKAGES += \
     audio.r_submix.default \
     audio.usb.default
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    audio.bluetooth.default
+
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth@1.1.vendor
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
@@ -166,6 +173,7 @@ PRODUCT_PACKAGES += \
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
+    android.hardware.health@2.1-impl.recovery \
     android.hardware.health@2.1-service
 
 # HIDL

@@ -163,14 +163,8 @@ vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek
 vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc
 
 # Bluetooth (A2DP)
-vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl.so
-vendor/lib/hw/android.hardware.bluetooth.audio@2.1-impl.so
-vendor/lib/hw/audio.bluetooth.default.so
 vendor/lib/libbluetooth_audio_session.so
 vendor/lib/libbluetooth_audio_session_mediatek.so
-vendor/lib64/hw/android.hardware.bluetooth.audio@2.0-impl.so
-vendor/lib64/hw/android.hardware.bluetooth.audio@2.1-impl.so
-vendor/lib64/hw/audio.bluetooth.default.so
 vendor/lib64/libbluetooth_audio_session.so
 vendor/lib64/libbluetooth_audio_session_mediatek.so
 
@@ -415,11 +409,6 @@ vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so
 vendor/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so
 vendor/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so
 vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so
-
-# Health
-vendor/bin/hw/android.hardware.health@2.1-service
-vendor/etc/init/android.hardware.health@2.1-service.rc
-vendor/etc/vintf/manifest/android.hardware.health@2.1.xml
 
 # IR
 vendor/lib64/hw/consumerir.common.so
@@ -4196,8 +4185,6 @@ vendor/lib64/android.hardware.gnss@2.0.so
 vendor/lib64/android.hardware.gnss@2.1.so
 vendor/lib64/android.hardware.dumpstate@1.0.so
 vendor/lib64/android.hardware.dumpstate@1.1.so
-vendor/lib64/android.hardware.bluetooth@1.0.so
-vendor/lib64/android.hardware.bluetooth@1.1.so
 vendor/lib64/android.hardware.audio@6.0.so
 vendor/lib64/android.hardware.audio@7.0-util.so
 vendor/lib64/android.hardware.audio@7.0.so
@@ -4226,8 +4213,6 @@ vendor/lib/android.hardware.secure_element@1.2.so
 vendor/lib/android.hardware.nfc@1.0.so
 vendor/lib/android.hardware.nfc@1.1.so
 vendor/lib/android.hardware.nfc@1.2.so
-vendor/lib/android.hardware.bluetooth@1.0.so
-vendor/lib/android.hardware.bluetooth@1.1.so
 vendor/lib/android.hardware.audio@6.0.so
 vendor/lib/android.hardware.audio@7.0-util.so
 vendor/lib/android.hardware.audio@7.0.so
