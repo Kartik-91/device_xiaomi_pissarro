@@ -174,6 +174,17 @@ PRODUCT_PACKAGES += \
     fastbootd \
     android.hardware.fastboot@1.0-impl-mock
 
+# Gatekeeper
+PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper@1.0-service \
+    android.hardware.gatekeeper@1.0-impl:64
+
+PRODUCT_PACKAGES += \
+    libkeymaster4.vendor \
+    libkeymaster4_1support.vendor \
+    libpuresoftkeymasterdevice.vendor \
+    libsoft_attestation_cert.vendor
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
@@ -253,6 +264,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libtextclassifier_hash.vendor
+
+# Pcap
+PRODUCT_PACKAGES += \
+    libpcap.vendor
 
 # Permissions
 PRODUCT_COPY_FILES += \

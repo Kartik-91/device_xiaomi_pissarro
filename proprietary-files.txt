@@ -382,15 +382,11 @@ vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so
 
 # Gatekeeper
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service
-vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc
-vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib/hw/gatekeeper.beanpod.so
 vendor/lib/hw/gatekeeper.mitee.so
 vendor/lib/libTEECommon.so
 vendor/lib/libimsg_log.so
 vendor/lib/libteecli.so
-vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib64/hw/gatekeeper.beanpod.so
 vendor/lib64/hw/gatekeeper.mitee.so
 vendor/lib64/libTEECommon.so
@@ -413,7 +409,6 @@ vendor/bin/hw/android.hardware.keymaster@4.0-service.beanpod
 vendor/bin/hw/android.hardware.keymaster@4.0-service.mitee
 vendor/etc/init/android.hardware.keymaster@4.0-service.beanpod.rc
 vendor/etc/init/android.hardware.keymaster@4.0-service.mitee.rc
-vendor/lib64/libkeymaster4.so
 
 # Light
 vendor/bin/hw/android.hardware.lights-service.mediatek
@@ -4164,7 +4159,6 @@ vendor/lib64/android.hardware.audio@7.0.so
 vendor/lib64/android.hardware.biometrics.fingerprint@2.1.so
 vendor/lib/libtinycompress.so
 vendor/lib/libpixelflinger.so
-vendor/lib/libpcap.so
 vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so
 vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so
 vendor/lib/hw/android.hardware.bluetooth@1.1-impl-mediatek.so
@@ -4184,5 +4178,4 @@ vendor/lib/android.hardware.audio@7.0.so
 vendor/bin/init.insmod.sh
 vendor/lib64/libc++_shared.so
 vendor/lib64/libtinycompress.so
-vendor/lib64/libpcap.so
 vendor/lib64/libpixelflinger.so
