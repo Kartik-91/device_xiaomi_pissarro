@@ -367,6 +367,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH)
 
+# Tetheroffload
+PRODUCT_PACKAGES += \
+    android.hardware.tetheroffload.config@1.0.vendor \
+    android.hardware.tetheroffload.control@1.0.vendor \
+    android.hardware.tetheroffload.control@1.1.vendor
+
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-impl \
@@ -383,3 +389,18 @@ PRODUCT_PACKAGES += \
 # Vibrator
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-V1-ndk_platform.vendor
+
+# Wifi
+PRODUCT_PACKAGES += \
+    hostapd \
+    android.hardware.wifi@1.0-service-lazy \
+    android.hardware.wifi@1.3-impl \
+    android.hardware.wifi.supplicant@1.0.vendor \
+    android.hardware.wifi.supplicant@1.1.vendor \
+    android.hardware.wifi.supplicant@1.2.vendor \
+    android.hardware.wifi.supplicant@1.3.vendor \
+    android.hardware.wifi.supplicant@1.4.vendor
+
+PRODUCT_PACKAGES += \
+    libkeystore-wifi-hidl \
+    libkeystore-engine-wifi-hidl
