@@ -4111,12 +4111,9 @@ vendor/lib64/android.hardware.light@2.0.so
 vendor/lib64/android.hardware.gnss.measurement_corrections@1.0.so
 vendor/lib64/android.hardware.gnss.measurement_corrections@1.1.so
 vendor/lib64/android.hardware.gnss.visibility_control@1.0.so
-vendor/lib64/android.hardware.dumpstate@1.0.so
-vendor/lib64/android.hardware.dumpstate@1.1.so
 vendor/lib64/android.hardware.audio@6.0.so
 vendor/lib64/android.hardware.audio@7.0-util.so
 vendor/lib64/android.hardware.audio@7.0.so
-vendor/lib64/android.hardware.biometrics.fingerprint@2.1.so
 vendor/lib/libtinycompress.so
 vendor/lib/libpixelflinger.so
 vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so

@@ -168,11 +168,21 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.2.vendor \
     android.hardware.drm@1.3.vendor \
     android.hardware.drm@1.4.vendor
+
+# Dumpstate
+PRODUCT_PACKAGES += \
+    android.hardware.dumpstate@1.1.vendor
  
 # Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd \
     android.hardware.fastboot@1.0-impl-mock
+
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.1.vendor \
+    android.hardware.biometrics.fingerprint@2.2.vendor \
+    android.hardware.biometrics.fingerprint@2.3.vendor
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
