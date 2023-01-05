@@ -433,29 +433,19 @@ vendor/lib64/hw/local_time.default.so
 vendor/bin/hw/android.hardware.media.c2@1.2-mediatek
 vendor/bin/hw/android.hardware.media.c2@1.2-mediatek-64b
 vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc
-vendor/lib/libcodec2_hidl@1.1.so
-vendor/lib/libcodec2_hidl@1.2.so
-vendor/lib/libcodec2_hidl_plugin.so
 vendor/lib/libcodec2_mtk_c2store.so
 vendor/lib/libcodec2_mtk_vdec.so
 vendor/lib/libcodec2_mtk_venc.so
-vendor/lib/libcodec2_soft_common.so
 vendor/lib/libcodec2_vpp_qt_plugin.so
 vendor/lib/libcodec2_vpp_rs_plugin.so
 vendor/lib/libformatter.so
-vendor/lib/libsfplugin_ccodec_utils.so
 vendor/lib/libstagefright_bufferpool@2.0.1.so
-vendor/lib64/libcodec2_hidl@1.1.so
-vendor/lib64/libcodec2_hidl@1.2.so
-vendor/lib64/libcodec2_hidl_plugin.so
 vendor/lib64/libcodec2_mtk_c2store.so
 vendor/lib64/libcodec2_mtk_vdec.so
 vendor/lib64/libcodec2_mtk_venc.so
-vendor/lib64/libcodec2_soft_common.so
 vendor/lib64/libcodec2_vpp_qt_plugin.so
 vendor/lib64/libcodec2_vpp_rs_plugin.so
 vendor/lib64/libformatter.so
-vendor/lib64/libsfplugin_ccodec_utils.so
 vendor/lib64/libstagefright_bufferpool@2.0.1.so
 
 # Media (OMX)
@@ -478,12 +468,9 @@ lib64/libstagefright_bufferpool@2.0.1.so
 lib64/libstagefright_codecbase.so
 lib64/libstagefright_framecapture_utils.so
 lib64/libstagefright_wfd_mtk.so
-vendor/bin/hw/android.hardware.media.omx@1.0-service
-vendor/etc/init/android.hardware.media.omx@1.0-service.rc
 vendor/etc/seccomp_policy/mediacodec.policy
 vendor/lib/libstagefright_soft_ac4dec.so
 vendor/lib/libstagefright_soft_ddpdec.so
-vendor/lib/libstagefright_softomx_plugin.so
 vendor/lib/libstagefrightdolby.so
 vendor/lib/libstagefrighthw.so
 vendor/lib64/libstagefright_soft_ac4dec.so
@@ -4192,7 +4179,6 @@ vendor/lib/libpixelflinger.so
 vendor/lib/libpcap.so
 vendor/lib/libhidltransport.so
 vendor/lib/libhwbinder.so
-vendor/lib/libavservices_minijail_vendor.so
 vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so
 vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so
 vendor/lib/hw/android.hardware.bluetooth@1.1-impl-mediatek.so
@@ -4211,12 +4197,10 @@ vendor/lib/android.hardware.audio@6.0.so
 vendor/lib/android.hardware.audio@7.0-util.so
 vendor/lib/android.hardware.audio@7.0.so
 vendor/bin/init.insmod.sh
-vendor/lib64/libavservices_minijail_vendor.so
 vendor/lib64/libc++_shared.so
 vendor/lib64/libtinycompress.so
 vendor/lib64/libhidltransport.so
 vendor/lib64/libhwbinder.so
 vendor/lib64/libpcap.so
 vendor/lib64/libpixelflinger.so
-vendor/lib64/libstagefright_softomx.so
 vendor/lib64/libtextclassifier_hash.so
