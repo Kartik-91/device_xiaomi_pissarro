@@ -87,10 +87,6 @@ vendor/lib/modules/wlan_drv_gen4m.ko
 vendor/lib/modules/wmt_chrdev_wifi.ko
 
 # Audio
-vendor/bin/hw/android.hardware.audio.service.mediatek
-vendor/etc/init/android.hardware.audio.service.mediatek.rc
-vendor/lib/hw/android.hardware.audio.effect@6.0-impl.so
-vendor/lib/hw/android.hardware.audio.effect@7.0-impl.so
 vendor/lib/hw/audio.primary.default.so
 vendor/lib/hw/audio.primary.mt6877.so
 vendor/lib/hw/audio.r_submix.default.so
@@ -100,9 +96,7 @@ vendor/lib/audio_common-aidl-cpp.so
 vendor/lib/audioclient-types-aidl-cpp.so
 vendor/lib/framework-permission-aidl-cpp.so
 vendor/lib/libaedv.so
-vendor/lib/libalsautils.so
 vendor/lib/libaudioclient_aidl_conversion.so
-vendor/lib/libaudiofoundation.so
 vendor/lib/libaudiotoolkit_vendor.so
 vendor/lib/libbwc.so
 vendor/lib/libladder.so
@@ -114,8 +108,6 @@ vendor/lib/vendor.mediatek.hardware.audio@7.1.so
 vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so
 vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so
 vendor/lib/vendor.mediatek.hardware.mtkpower@1.0.so
-vendor/lib64/hw/android.hardware.audio.effect@6.0-impl.so
-vendor/lib64/hw/android.hardware.audio.effect@7.0-impl.so
 vendor/lib64/hw/audio.primary.default.so
 vendor/lib64/hw/audio.primary.mt6877.so
 vendor/lib64/hw/audio.r_submix.default.so
@@ -125,9 +117,7 @@ vendor/lib64/audio_common-aidl-cpp.so
 vendor/lib64/audioclient-types-aidl-cpp.so
 vendor/lib64/framework-permission-aidl-cpp.so
 vendor/lib64/libaedv.so
-vendor/lib64/libalsautils.so
 vendor/lib64/libaudioclient_aidl_conversion.so
-vendor/lib64/libaudiofoundation.so
 vendor/lib64/libaudiotoolkit_vendor.so
 vendor/lib64/libbwc.so
 vendor/lib64/libladder.so
@@ -586,10 +576,6 @@ vendor/lib64/libsysenv.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex@2.0.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so
 
-# RenderScript
-vendor/lib/hw/android.hardware.renderscript@1.0-impl.so
-vendor/lib64/hw/android.hardware.renderscript@1.0-impl.so
-
 # Secure element
 vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
 vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc
@@ -615,10 +601,8 @@ vendor/etc/sensors/hals.conf
 vendor/app/SoterService/SoterService.apk
 
 # Soundtrigger
-vendor/lib/hw/android.hardware.soundtrigger@2.3-impl.so
-vendor/lib/hw/sound_trigger.primary.default.so
-vendor/lib64/hw/android.hardware.soundtrigger@2.3-impl.so
-vendor/lib64/hw/sound_trigger.primary.default.so
+vendor/lib/hw/sound_trigger.primary.default.so:vendor/lib/hw/sound_trigger.primary.mt6877.so
+vendor/lib64/hw/sound_trigger.primary.default.so:vendor/lib64/hw/sound_trigger.primary.mt6877.so
 
 # Thermal
 vendor/bin/hw/android.hardware.thermal@2.0-service.mtk
@@ -4101,8 +4085,6 @@ vendor/pissarropro_ss.build.prop
 vendor/lib64/hw/android.hardware.bluetooth@1.1-impl-mediatek.so
 vendor/lib64/hw/android.hardware.boot@1.0-impl-1.2-mtkimpl.so
 vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so
-vendor/lib64/hw/android.hardware.audio@6.0-impl-mediatek.so
-vendor/lib64/hw/android.hardware.audio@7.0-impl-mediatek.so
 vendor/lib64/android.hardware.nfc@1.0.so
 vendor/lib64/android.hardware.nfc@1.1.so
 vendor/lib64/android.hardware.nfc@1.2.so
@@ -4111,24 +4093,14 @@ vendor/lib64/android.hardware.light@2.0.so
 vendor/lib64/android.hardware.gnss.measurement_corrections@1.0.so
 vendor/lib64/android.hardware.gnss.measurement_corrections@1.1.so
 vendor/lib64/android.hardware.gnss.visibility_control@1.0.so
-vendor/lib64/android.hardware.audio@6.0.so
-vendor/lib64/android.hardware.audio@7.0-util.so
-vendor/lib64/android.hardware.audio@7.0.so
-vendor/lib/libtinycompress.so
 vendor/lib/libpixelflinger.so
 vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so
 vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so
 vendor/lib/hw/android.hardware.bluetooth@1.1-impl-mediatek.so
 vendor/lib/hw/android.hardware.boot@1.0-impl-1.2-mtkimpl.so
-vendor/lib/hw/android.hardware.audio@6.0-impl-mediatek.so
-vendor/lib/hw/android.hardware.audio@7.0-impl-mediatek.so
 vendor/lib/android.hardware.nfc@1.0.so
 vendor/lib/android.hardware.nfc@1.1.so
 vendor/lib/android.hardware.nfc@1.2.so
-vendor/lib/android.hardware.audio@6.0.so
-vendor/lib/android.hardware.audio@7.0-util.so
-vendor/lib/android.hardware.audio@7.0.so
 vendor/bin/init.insmod.sh
 vendor/lib64/libc++_shared.so
-vendor/lib64/libtinycompress.so
 vendor/lib64/libpixelflinger.so

@@ -91,10 +91,29 @@ PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_config
 
 PRODUCT_PACKAGES += \
-    audio.a2dp.default \
-    audio_policy.stub \
-    audio.r_submix.default \
-    audio.usb.default
+    android.hardware.audio@6.0.vendor \
+    android.hardware.audio@7.0.vendor \
+    android.hardware.audio.service \
+    android.hardware.audio@7.0-impl \
+    android.hardware.audio.common-util.vendor \
+    android.hardware.audio.common@5.0.vendor \
+    android.hardware.audio.common@7.0-util.vendor \
+    android.hardware.audio.effect@7.0-impl \
+    android.hardware.bluetooth.audio@2.1-impl \
+    android.hardware.soundtrigger@2.3.vendor \
+    android.hardware.soundtrigger@2.0-core \
+    android.hardware.soundtrigger@2.3-impl \
+    audio.usb.default \
+    audio_policy.stub
+
+PRODUCT_PACKAGES += \
+    libaudiopreprocessing \
+    libalsautils \
+    libalsautils.vendor \
+    libnbaio_mono \
+    libtinycompress \
+    libtinyxml \
+    libaudiofoundation.vendor
 
 # Bluetooth
 PRODUCT_PACKAGES += \
@@ -358,6 +377,10 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.2.vendor \
     android.hardware.radio.config@1.3.vendor \
     android.hardware.radio-V1.4-java
+
+# Renderscript
+PRODUCT_PACKAGES += \
+    android.hardware.renderscript@1.0-impl
 
 # Secure Element
 PRODUCT_PACKAGES += \
