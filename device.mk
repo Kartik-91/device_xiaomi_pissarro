@@ -185,6 +185,12 @@ PRODUCT_PACKAGES += \
     libpuresoftkeymasterdevice.vendor \
     libsoft_attestation_cert.vendor
 
+# GNSS
+PRODUCT_PACKAGES += \
+    android.hardware.gnss@2.1-impl \
+    android.hardware.gnss@2.1.vendor \
+    libcurl
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
