@@ -164,6 +164,7 @@ TARGET_NO_RECOVERY := true
 # SEPolicy
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
 SELINUX_IGNORE_NEVERALLOWS := true
+SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/public
 
 # Treble
 BOARD_VNDK_VERSION := current

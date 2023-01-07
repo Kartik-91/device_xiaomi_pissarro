@@ -1,0 +1,5 @@
+allow vendor_shell sysfs:file { getattr open read };
+
+allow vendor_shell toolbox_exec:file { getattr execute read open execute_no_trans map };
+
+allow vendor_shell vendor_default_prop:property_service { set };
