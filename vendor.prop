@@ -1,4 +1,8 @@
-+=
+# ADB on boot
+persist.service.adb.enable=1
+persist.service.debuggable=1
+persist.sys.usb.config=mtp,adb
+ro.adb.secure=0
 aaudio.mmap_exclusive_policy=0
 aaudio.mmap_policy=0
 camera.disable_zsl_mode=1
@@ -277,7 +281,6 @@ persist.sys.mdlog_dumpback=2
 persist.sys.millet.cgroup1=true
 persist.sys.millet.handshake=true
 persist.sys.powmillet.enable=true
-persist.sys.usb.config=none
 persist.vendor.anr.enhancement=0
 persist.vendor.audio.misound.disable=true
 persist.vendor.camera3.pipeline.bufnum.base.imgo=4
