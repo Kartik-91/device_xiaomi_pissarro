@@ -5,3 +5,5 @@ allow init sysfs:file { read write open };
 allow init vendor_file:file { execute_no_trans };
 
 allow init system_suspend_hwservice:hwservice_manager { find };
+
+allow init vendor_toolbox_exec:file { execute_no_trans };
