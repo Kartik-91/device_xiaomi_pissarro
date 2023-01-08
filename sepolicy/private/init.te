@@ -1,0 +1,149 @@
+allow init vendor_data_file:file { lock append };
+
+allow init sysfs:file { read write open getattr };
+
+allow init vendor_file:file { execute_no_trans };
+
+allow init system_suspend_hwservice:hwservice_manager { find };
+
+allow init vendor_toolbox_exec:file { execute_no_trans };
+allow init system_suspend:binder { call };
+#allow init bp_kmsetkey_ca_exec:file { execute_no_trans };
+
+
+#allow init connsyslog_data_vendor_file:file { append };
+
+
+allow init default_android_hwservice:hwservice_manager { add  find };
+
+
+allow init default_android_service:service_manager { add };
+
+
+allow init device:chr_file { ioctl  open  read };
+
+
+#allow init dms_hwservice:hwservice_manager { add  find };
+
+
+#allow init gbe_native_exec:file { execute_no_trans };
+
+
+#allow init hal_audio_default:binder { call };
+
+
+allow init hal_audio_hwservice:hwservice_manager { find };
+
+
+allow init hal_bluetooth_hwservice:hwservice_manager { add  find };
+
+
+allow init hal_codec2_hwservice:hwservice_manager { add  find };
+
+
+allow init hal_dumpstate_hwservice:hwservice_manager { add  find };
+
+
+allow init hal_gnss_hwservice:hwservice_manager { add  find };
+
+
+allow init hal_gnss_service:service_manager { add };
+
+
+allow init hal_light_service:service_manager { add };
+
+
+allow init hal_memtrack_service:service_manager { add };
+
+
+allow init hal_nfc_hwservice:hwservice_manager { add  find };
+
+
+allow init hal_secure_element_hwservice:hwservice_manager { add  find };
+
+
+allow init hal_sensors_hwservice:hwservice_manager { add  find };
+
+
+allow init hal_telephony_hwservice:hwservice_manager { find };
+
+
+allow init hal_usb_gadget_hwservice:hwservice_manager { add  find };
+
+
+allow init hal_usb_hwservice:hwservice_manager { add  find };
+
+
+allow init hidl_base_hwservice:hwservice_manager { add };
+
+
+allow init hwservicemanager:binder { call  transfer };
+
+
+allow init init:netlink_kobject_uevent_socket { bind  create  getopt  read  setopt };
+
+
+allow init init:packet_socket { bind  create  getopt  ioctl  map  read  setopt };
+
+
+allow init mediaserver:binder { transfer };
+
+
+allow init mediaswcodec:binder { transfer };
+
+
+#allow init mnld:unix_dgram_socket { sendto };
+
+
+#allow init mtk_hal_power:binder { call };
+
+
+#allow init mtk_hal_power_hwservice:hwservice_manager { find };
+
+
+#allow init mtk_hal_rild_hwservice:hwservice_manager { find };
+
+
+#allow init nxpnfc_hwservice:hwservice_manager { add  find };
+
+
+allow init platform_app:binder { transfer };
+
+
+#allow init proc_ion_clients_summary:file { getattr  open  read };
+
+
+#allow init proc_perfmgr:file { ioctl  open  read };
+
+
+#allow init rild:binder { call  transfer };
+
+
+allow init same_process_hal_file:file { execute };
+allow init secure_element:binder { call };
+#allow init sensor_device:chr_file { ioctl  open  read };
+
+
+allow init servicemanager:binder { call  transfer };
+#allow init sysfs_bus:lnk_file { read };
+
+
+#allow init sysfs_scp:file { open  read };
+
+
+allow init system_file:file { execute_no_trans };
+
+
+allow init system_server:binder { call  transfer };
+
+
+allow init system_server:fd { use };
+
+
+allow init vendor_data_file:fifo_file { write };
+
+
+allow init video_device:chr_file { ioctl  open  read };
+
+
+allow init vndbinder_device:chr_file { ioctl  map  open  read  write };
