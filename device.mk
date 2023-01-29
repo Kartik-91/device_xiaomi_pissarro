@@ -17,7 +17,7 @@
 DEVICE_PATH := device/xiaomi/pissarro
 
 # Installs gsi keys into ramdisk, to boot a GSI with verified boot.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 
 $(call inherit-product, vendor/xiaomi/pissarro/pissarro-vendor.mk)
 
@@ -103,7 +103,6 @@ PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.3.vendor \
     android.hardware.soundtrigger@2.0-core \
     android.hardware.soundtrigger@2.3-impl \
-    audio.a2dp.default \
     audio.usb.default \
     audio_policy.stub
 
@@ -358,6 +357,10 @@ PRODUCT_PACKAGES += \
     android.hardware.power@1.0.vendor \
     android.hardware.power@1.1.vendor \
     android.hardware.power@1.3.vendor
+
+# Properties
+-include $(DEVICE_PATH)/vendor_props.mk
+PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
 # Public libraries
 PRODUCT_COPY_FILES += \
