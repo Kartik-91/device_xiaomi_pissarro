@@ -218,6 +218,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1-impl \
     android.hardware.gnss@2.1.vendor \
+    android.hardware.gnss-V1-ndk.vendor:64 \
     libcurl
 
 # Health
@@ -352,8 +353,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/power/powerscntbl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerscntbl.xml
 
 PRODUCT_PACKAGES += \
-    android.hardware.power-V1.vendor \
-    android.hardware.power-V1-ndk_platform.vendor \
+    android.hardware.power-V2.vendor \
+    android.hardware.power-V2-ndk.vendor:64 \
     android.hardware.power@1.0.vendor \
     android.hardware.power@1.1.vendor \
     android.hardware.power@1.3.vendor
@@ -417,7 +418,7 @@ PRODUCT_PACKAGES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator-V1-ndk_platform.vendor
+    android.hardware.vibrator-V1-ndk.vendor
 
 # Wifi
 PRODUCT_PACKAGES += \
